@@ -6,12 +6,14 @@
             position:fixed;
             margin:auto;
             right:10%;
-            border-style:none;
+            border-style:solid;
             font-size:18px;
             text-align:left;
             top:15%;
             width:75%;
             text-align:left,top;
+            position:middle;
+            
         }
         th {
             text-align:left;
@@ -23,6 +25,9 @@
             background-color:white;
             height:relative;
             padding:5px ;
+            font-size:18px;
+            border-style:solid;
+            border-color:black;
         }
         .navbar {
             width:100%;
@@ -60,12 +65,10 @@
             font-size: 16px;
             border: none;
         }
-
         .dropdown {
             position: relative;
             display: inline-block;
         }
-
         .dropdown-content {
             display: none;
             position: absolute;
@@ -74,18 +77,14 @@
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
 }
-
         .dropdown-content a {
             color: black;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
-
         .dropdown-content a:hover {background-color: #ddd;}
-
         .dropdown:hover .dropdown-content {display: block;}
-
         .dropdown:hover .dropbtn {
             background-color: white;
             color:black;    
@@ -115,10 +114,41 @@
         }
   </style>
   <body>
+    <div class="navbar">
+    <div class="dropdown">
+  <button class="dropbtn" class="b">Menu</button>
+  <div class="dropdown-content">
+    <a href="https://paradrake2.github.io/My-Lai-Massacre/">Home</a>
+    <a href="#">Sources</a>
+  </div>
+</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
      <fieldset>
-        <a href="https://go.gale.com/ps/retrieve.do?tabID=T003&resultListType=RESULT_LIST&searchResultsType=SingleTab&searchType=BasicSearchForm&currentPosition=1&docId=GALE%7CA407955255&docType=Article&sort=Relevance&contentSegment=ZAHB-MOD1&prodId=GPS&contentSet=GALE%7CA407955255&searchId=R1&userGroupName=carmelhs&inPS=true">Gale</a>
-        <a href="https://www.history.com/topics/vietnam-war/my-lai-massacre-1">History.com</a>
-        >a href="https://en.wikipedia.org/wiki/My_Lai_Massacre">Wikipedia</a>
+         <table align="left">
+            <tr>
+            <td>
+                <a href="https://go.gale.com/ps/retrieve.do?tabID=T003&resultListType=RESULT_LIST&searchResultsType=SingleTab&searchType=BasicSearchForm&currentPosition=1&docId=GALE%7CA407955255&docType=Article&sort=Relevance&contentSegment=ZAHB-MOD1&prodId=GPS&contentSet=GALE%7CA407955255&searchId=R1&userGroupName=carmelhs&inPS=true">Scene of the Crime</a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="https://www.history.com/topics/vietnam-war/my-lai-massacre-1">History.com</a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/My_Lai_Massacre">Wikipedia</a>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://go.gale.com/ps/retrieve.do?tabID=T003&resultListType=RESULT_LIST&searchResultsType=SingleTab&searchType=BasicSearchForm&currentPosition=2&docId=GALE%7CA176665071&docType=Brief+article&sort=Relevance&contentSegment=ZAHB-MOD1&prodId=GPS&contentSet=GALE%7CA176665071&searchId=R1&userGroupName=carmelhs&inPS=true">Not Quite Forgotten</a>
+                </td>
+            </tr>
      </fieldset>
   </body>
 </html>
